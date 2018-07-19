@@ -1,0 +1,40 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jquery": true,
+    "mocha": true
+  },
+  "rules": {
+    "quotes": 0,
+    "curly": 1,
+    "no-console": 0,
+    "no-debugger": 1,
+    "indent": ["error", 2],
+    "semi": [1, "always"],
+    "no-trailing-spaces": 0,
+    "no-multi-spaces": 1,
+    "no-self-compare": 1,
+    "eol-last": 0,
+    "no-unused-vars": 0,
+    "no-underscore-dangle": 0,
+    "camelcase": 1,
+    "no-alert": 0,
+    "no-lone-blocks": 0,
+    "brace-style": 1,
+    "jsx-quotes": 1,
+    "no-undef": 0,
+  }
+}
